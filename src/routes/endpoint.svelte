@@ -1,5 +1,5 @@
 <script>
-	export let event;
+	export let ctx;
 </script>
 
-{JSON.stringify(event, null, 2)}
+{JSON.stringify(ctx, null, 2)}

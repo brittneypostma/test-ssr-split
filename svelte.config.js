@@ -9,8 +9,7 @@ const config = {
 
   kit: {
     adapter: adapter({
-      split: false,
-      edge: true
+      split: true
     }),
 
     // Override http methods in the Todo forms

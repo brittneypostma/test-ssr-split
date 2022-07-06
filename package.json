@@ -2,11 +2,11 @@
   "name": "test-ssr-split",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
-    "prepare": "svelte-kit sync",
+    "dev": "vite dev",
+    "build": "vite build",
+    "package": "vite package",
+    "preview": "vite preview",
+    "prepare": "vite sync",
     "test": "playwright test",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "@playwright/test": "^1.22.2",
     "@sveltejs/adapter-auto": "next",
-    "@sveltejs/adapter-netlify": "1.0.0-next.56",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.66",
     "@sveltejs/kit": "next",
     "@types/cookie": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
@@ -30,7 +30,8 @@
     "svelte-check": "^2.7.2",
     "svelte-preprocess": "^4.10.7",
     "tslib": "^2.4.0",
-    "typescript": "~4.6.4"
+    "typescript": "~4.6.4",
+    "vite": "^2.9.13"
   },
   "type": "module",
   "dependencies": {
